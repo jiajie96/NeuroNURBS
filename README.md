@@ -5,7 +5,7 @@ Official Implementation of our Paper "[NeuroNURBS: Learning Efficient Surface Re
 ![diagram](neuronurbs_diagram.png)
 
 ## Note
-This code builds on the previous work "[BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry](https://arxiv.org/abs/2401.15563)", where we replace the surface representation from UV-grid to NURBS parameters. In addition, we have specially designed a transformer-based autoencoder for NURBS parameters.
+This code builds on the previous work "[BrepGen: A B-rep Generative Diffusion Model with Structured Latent Geometry](https://arxiv.org/abs/2401.15563)".
 
 
 ## Environment 
