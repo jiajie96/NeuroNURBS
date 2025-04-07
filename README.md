@@ -1,4 +1,4 @@
-## NeuroNURBS-python
+## NeuroNURBS
 [![arXiv](https://img.shields.io/badge/📃-arXiv%20-red.svg)](https://arxiv.org/abs/2411.10848)
 Official Implementation of our Paper "[NeuroNURBS: Learning Efficient Surface Representations for 3D Solids](https://arxiv.org/abs/2411.10848)".
 
