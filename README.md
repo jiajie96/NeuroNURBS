@@ -9,13 +9,13 @@ This code builds on the previous work "[BrepGen: A B-rep Generative Diffusion Mo
 
 
 ## Environment 
-%conda create -n p39 python==3.9.2
-%conda init
-%conda activate p39
-%conda install -c conda-forge lambouj::occwl
-%conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 pytorch-cuda=11.8 -c pytorch -c nvidia
-%pip install -r requirements.txt
-%conda install -c conda-forge pytorch3d::pytorch3d
+conda create -n p39 python==3.9.2
+conda init
+conda activate p39
+conda install -c conda-forge lambouj::occwl
+conda install pytorch==2.2.2 torchvision==0.17.2 torchaudio==2.2.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install -r requirements.txt
+conda install -c conda-forge pytorch3d::pytorch3d
 # conda install 'numpy<2.0'  
 
 ## Citation
