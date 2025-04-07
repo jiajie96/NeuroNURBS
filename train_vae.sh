@@ -8,7 +8,6 @@ python vae.py --data data_process/deepcad_parsed \
     --train_list data_process/deepcad_data_split_6bit_surface.pkl \
     --val_list data_process/deepcad_data_split_6bit.pkl \
     --option surface --gpu 0 --env deepcad_vae_surf_test --train_nepoch 800
-    # --finetune --weight proj_log/deepcad_vae_surf/iters_123200.pt\
 
 # python vae.py --data data_process/deepcad_parsed \
 #     --test_nepoch 20 --save_nepoch 20 --data_aug\
