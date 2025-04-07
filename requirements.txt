@@ -1,0 +1,9 @@
+diffusers[torch]==0.27
+transformers[torch]==4.44.2
+wandb
+matplotlib
+scipy
+trimesh
+plyfile
+scikit-learn
+einops
