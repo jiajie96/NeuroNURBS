@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyo
+.Python
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# PyTorch / ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.pkl
+proj_log/
+wandb/
+runs/
+lightning_logs/
+
+# Data directories
+data_process/deepcad_parsed/
+data_process/abc_parsed/
+data_process/furniture_parsed/
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Type checking
+.mypy_cache/
+
+# Linting
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution
+*.tar.gz
+*.zip
