@@ -53,24 +53,6 @@ def scale_bboxes(bboxes, scale_range, min_values=None, max_values=None):
     a, b = torch.tensor(scale_range, device=bboxes.device)
     return (b - a) * (bboxes - min_values) / (max_values - min_values) + a
 
-def compute_bbox_centers_and_sizes(min_corner, max_corner):
-    # # Ensure that the min_corner is actually the minimum corner and the max_corner is the maximum corner
-    # for i in range(len(min_corner)):
-    #     if min_corner[i] > max_corner[i]:
-    #         min_corner[i], max_corner[i] = max_corner[i], min_corner[i]
-    # # Calculate the center
-    # center_x = (min_corner[0] + max_corner[0]) / 2
-    # center_y = (min_corner[1] + max_corner[1]) / 2
-    # center_z = (min_corner[2] + max_corner[2]) / 2
-    # center = np.array([center_x, center_y, center_z])
-    # # Calculate the size
-    # size_x = max_corner[0] - min_corner[0]
-    # size_y = max_corner[1] - min_corner[1]
-    # size_z = max_corner[2] - min_corner[2]
-    # size = max(size_x, size_y, size_z)
-    centers, sizes = compute_bbox_centers_and_sizes(min_corner, max_corner)
-    return center[0], size[0]
-
 def compute_bbox_centers_and_sizes(min_corners, max_corners):
     return_numpy = False
     if isinstance(min_corners, np.ndarray) and isinstance(max_corners, np.ndarray):

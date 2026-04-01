@@ -1,9 +1,22 @@
-diffusers[torch]==0.27
+# Core ML framework (install PyTorch separately via conda — see README)
+diffusers[torch]==0.27.0
 transformers[torch]==4.44.2
-wandb
-matplotlib
-scipy
-trimesh
-plyfile
-scikit-learn
-einops
+einops==0.8.0
+
+# Experiment tracking
+wandb>=0.17.0
+
+# Numerical / geometry
+scipy>=1.13.0
+trimesh>=4.4.0
+numpy>=1.24.0,<2.0
+
+# Visualisation
+matplotlib>=3.9.0
+
+# Data utilities
+plyfile>=1.0.3
+scikit-learn>=1.5.0
+
+# Progress bars (used throughout training/data-processing code)
+tqdm>=4.66.0
