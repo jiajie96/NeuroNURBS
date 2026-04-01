@@ -4,7 +4,6 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.2.2-EE4C2C.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/jiajie96/NeuroNURBS/actions/workflows/ci.yml/badge.svg)](https://github.com/jiajie96/NeuroNURBS/actions/workflows/ci.yml)
 
 Official implementation of **"NeuroNURBS: Learning Efficient Surface Representations for 3D Solids"**.
 
